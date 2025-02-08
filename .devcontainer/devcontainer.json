@@ -1,0 +1,24 @@
+{
+    "name": "Python 3.12 Development Environment",
+    "image": "mcr.microsoft.com/devcontainers/python:3.12",
+    
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "terminal.integrated.profiles.linux": {
+                    "bash": {
+                        "path": "/bin/bash"
+                    }
+                }
+            }
+        }
+    },
+
+    "remoteUser": "vscode",
+    
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    }
+}

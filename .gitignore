@@ -1,0 +1,109 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Environment variables
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+
+# Project specific
+logs/
+*.log
+output/
+results/
+.cache/
+temp/
+tmp/
+
+# API Keys and Credentials
+*_key.txt
+*_token.txt
+credentials.json
+*.pem
+*.key
+
+# Model files and artifacts
+models/
+*.pkl
+*.h5
+*.model
+*.bin
+
+# Data files
+data/
+*.csv
+*.json
+*.xlsx
+*.db
+*.sqlite3
+
+# Documentation
+docs/_build/
+site/
+
+# Distribution
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
