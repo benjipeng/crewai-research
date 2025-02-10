@@ -1,0 +1,23 @@
+[project]
+name = "speech_content"
+version = "0.1.0"
+description = "speech-content using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.100.1,<1.0.0"
+]
+
+[project.scripts]
+speech_content = "speech_content.main:run"
+run_crew = "speech_content.main:run"
+train = "speech_content.main:train"
+replay = "speech_content.main:replay"
+test = "speech_content.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
