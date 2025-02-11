@@ -42,10 +42,3 @@ Key components and their purposes:
 5. `main.py`: Entry point of your application
 6. `.env`: Environment variables (API keys, configuration)
 
-What specific aspects of your crewAI project would you like help with? I can assist with:
-- Creating specialized agents
-- Defining tasks and workflows
-- Setting up agent interactions
-- Implementing custom tools
-- Optimizing performance
-- Testing and debugging
