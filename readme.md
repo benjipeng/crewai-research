@@ -1,44 +1,5 @@
 # CrewAI playground and Beyond
 
 ## Intro
-I'll help you with your crewAI project. Let me first outline a standard folder structure for a crewAI project.
 
-A typical crewAI project structure follows this organization:
-
-```
-speech_project/
-├── README.md
-├── requirements.txt
-├── .env
-├── .gitignore
-├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── agents/
-│   │   ├── __init__.py
-│   │   └── speech_agents.py
-│   ├── crews/
-│   │   ├── __init__.py
-│   │   └── speech_crew.py
-│   ├── tasks/
-│   │   ├── __init__.py
-│   │   └── speech_tasks.py
-│   └── tools/
-│       ├── __init__.py
-│       └── speech_tools.py
-└── tests/
-    ├── __init__.py
-    ├── test_agents.py
-    ├── test_crews.py
-    └── test_tasks.py
-```
-
-Key components and their purposes:
-
-1. `src/agents/`: Contains agent definitions with their specific roles, goals, and behaviors
-2. `src/crews/`: Defines how agents work together and orchestrates their interactions
-3. `src/tasks/`: Holds task definitions that agents will execute
-4. `src/tools/`: Custom tools and utilities that agents can use
-5. `main.py`: Entry point of your application
-6. `.env`: Environment variables (API keys, configuration)
-
+The CrewAI CLI offers a streamlined way to run crews, especially for simpler setups. We'll adapt our project to work with it. Instead of main.py, we'll have a crew.py (or similar name) that defines the crew, and we'll execute it using the CLI.
